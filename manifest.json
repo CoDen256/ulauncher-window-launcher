@@ -1,0 +1,19 @@
+{
+  "required_api_version": "^2.0.0",
+  "name": "Window Launcher",
+  "description": "The extension switches to current window OR launches a new instance of an app",
+  "developer_name": "Denys Chernyshov",
+  "icon": "images/icon.png",
+  "options": {
+    "query_debounce": 0.05
+  },
+  "preferences": [
+    {
+      "id": "wlauncher",
+      "type": "keyword",
+      "name": "Launch an app",
+      "description": "Activates a window or launches a new instance",
+      "default_value": "wl"
+    }
+  ]
+}
